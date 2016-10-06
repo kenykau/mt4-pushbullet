@@ -43,6 +43,7 @@ Points to note:
 2.	to communicate with your devices in mt4 using either WebRequest or the header files provided
 
 MQL4 API
+
 1.	Dictionary (dictionary.mqh)
 
 	This is a generic key-value pair dictionary class for easier messaging.
@@ -98,6 +99,7 @@ MQL4 API
 		Print(dictionary.Count());						//2
 
 		Print(dictionary.GetIdxByKey("Bid"))			//0
+
 
 2.	Notification (notification.mqh)
 	This is the main class to communicate with the node server
